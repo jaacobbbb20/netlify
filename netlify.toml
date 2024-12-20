@@ -1,0 +1,9 @@
+[build]
+  # Since we don't need to build anything, we can use a simple command
+  # that just echoes a message or use "true" which always succeeds
+  command = "echo 'No build required for static HTML'"
+  
+  # This is the directory containing your HTML files
+  # If your files are in the root, use "."
+  # If they're in a subdirectory like "public", specify that
+  publish = "."
