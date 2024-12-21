@@ -1,0 +1,12 @@
+/* Add your blackjack-specific styles here */
+body {
+    background-color: #f3f3f3;
+}
+h1 {
+    color: #2e2e2e;
+    text-align: center;
+}
+#game-output {
+    margin-top: 20px;
+    text-align: center;
+}
